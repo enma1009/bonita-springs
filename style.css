@@ -2581,8 +2581,9 @@ html[xmlns] .slider-wrap {
 
 #top-bar {
 	position: relative;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 2px solid #172C3B;
 	font-size: 13px;
+	background-color: #224258;
 }
 
 

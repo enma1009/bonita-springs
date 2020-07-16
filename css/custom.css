@@ -5,4 +5,37 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+.poker-time-pill {
+	line-height: 1.8 !important;
+	border-radius: 14px;
+	padding: 4px 14px;
+	font-size: 11px;
+	/* background-color: #C02942; */
+	display: inline-block;
+	position: relative;
+	outline: none;
+    white-space: nowrap;
+	margin: 5px;
+	/* color: #FFF; */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border: 1px solid #fefefe;
+}
 
+.headline-sport {
+	font-family: 'Arvo', serif !important;
+	letter-spacing: -.5px !important;
+}
+
+.gradient-sunrise {
+	background: rgb(0,255,255);
+	background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(240,198,1,1) 100%);
+}
+
+.gradient-night {
+	background: rgb(22,42,56);
+	background: linear-gradient(180deg, rgba(22,42,56,1) 0%, rgba(4,67,137,1) 100%);
+}
