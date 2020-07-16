@@ -27,15 +27,27 @@
 
 .headline-sport {
 	font-family: 'Arvo', serif !important;
-	letter-spacing: -.5px !important;
+	letter-spacing: -.6px !important;
+	text-transform: uppercase;
 }
 
 .gradient-sunrise {
-	background: rgb(0,255,255);
-	background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(240,198,1,1) 100%);
+	/* background: rgb(0,255,255);
+	background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(240,198,1,1) 100%); */
+	background: rgb(218,28,92,1);
+	background: linear-gradient(0deg, rgba(223,183,1,1) 0%, rgba(218,28,92,1) 100%);
 }
 
 .gradient-night {
 	background: rgb(22,42,56);
 	background: linear-gradient(180deg, rgba(22,42,56,1) 0%, rgba(4,67,137,1) 100%);
+}
+
+.gradient-blues {
+	background: rgb(4,67,137);
+	background: linear-gradient(180deg, rgba(4,67,137,1) 26%, rgba(0,255,255,1) 100%);
+}
+
+.border-radius-10 {
+	border-radius: 10px;
 }
