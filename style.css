@@ -6572,7 +6572,7 @@ body:not(.device-touch) .grid-container {
 }
 
 .portfolio-rounded .portfolio-image {
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	overflow: hidden;
 }
 
@@ -9268,7 +9268,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-content p {
 	margin-top: 0.5rem;
 	margin-bottom: 0px;
-	color: #999;
+	color: rgb(53, 53, 53);
 }
 
 .fbox-content .before-heading {
@@ -12886,7 +12886,7 @@ h3.titular-title { font-size: 2rem; }
 	display: block;
 	margin-top: 10px;
 	font-weight: 300;
-	color: #777;
+	color: #444;
 }
 
 .heading-block .before-heading { margin-bottom: 7px; }

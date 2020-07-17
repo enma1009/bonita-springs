@@ -48,6 +48,11 @@
 	background: linear-gradient(180deg, rgba(4,67,137,1) 26%, rgba(0,255,255,1) 100%);
 }
 
+.gradient-darkest {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 26%, rgba(22,42,56,1) 100%);
+}
+
 .border-radius-10 {
 	border-radius: 10px;
 }

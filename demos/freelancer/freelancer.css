@@ -107,9 +107,9 @@
 	margin-left: 20px;
 }
 
-.portfolio-image img {
+/* .portfolio-image img {
 	border-radius: 10px;
-}
+} */
 
 .translatey-3,
 .h-translatey-3:hover { transform: translateY(-3px) !important; }
