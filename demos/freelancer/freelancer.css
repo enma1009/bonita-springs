@@ -26,13 +26,13 @@
 
 #content p { line-height: 1.5; }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	.section,
 	#footer .footer-widgets-wrap {
 		margin: 100px 0;
 		padding: 100px 0;
 	}
-}
+} */
 
 .menu-link {
 	font-weight: 600;
