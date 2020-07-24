@@ -1,8 +1,8 @@
 /* ----------------------------------------------------------------
 	Custom CSS
 
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
+	Author: Enid Soto
+	Last updated: 07/21/2020
 -----------------------------------------------------------------*/
 
 .poker-time-pill {
@@ -10,13 +10,11 @@
 	border-radius: 14px;
 	padding: 4px 14px;
 	font-size: 11px;
-	/* background-color: #C02942; */
 	display: inline-block;
 	position: relative;
 	outline: none;
     white-space: nowrap;
 	margin: 5px;
-	/* color: #FFF; */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -25,15 +23,15 @@
 	border: 1px solid #fefefe;
 }
 
-.headline-sport {
-	font-family: 'Arvo', serif !important;
-	letter-spacing: -.6px !important;
-	text-transform: uppercase;
+.bgrd-yellow {
+	background-color: #f0c601;
+}
+
+.text-yellow {
+	color: #f0c601;
 }
 
 .gradient-sunrise {
-	/* background: rgb(0,255,255);
-	background: linear-gradient(180deg, rgba(0,255,255,1) 0%, rgba(240,198,1,1) 100%); */
 	background: rgb(218,28,92,1);
 	background: linear-gradient(0deg, rgba(223,183,1,1) 0%, rgba(218,28,92,1) 100%);
 }
@@ -53,6 +51,35 @@
 	background: linear-gradient(180deg, rgba(0,0,0,1) 26%, rgba(22,42,56,1) 100%);
 }
 
+.gradient-darkgreen {
+	background: rgb(5,63,19);
+	background: linear-gradient(180deg, rgba(5,63,19,1) 26%, rgba(5,92,29,1) 100%);
+}
+
+.gradient-poker-red {
+	background: rgb(124,0,0);
+	background: linear-gradient(180deg, rgba(124,0,0,1) 15%, rgba(213,48,78,1) 100%);
+}
+
+.gradient-lightsilver {
+	background: rgb(213,214,216);
+	background: linear-gradient(180deg, rgba(213,214,216,1) 2%, rgba(234,235,236,1) 47%, rgba(166,168,171,1) 100%);
+}
+
+.gradient-lightsilver2 {
+	background: rgb(213,214,216);
+background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 100%);
+}
+
+.gradient-orange {
+	background: rgb(240,149,1);
+	background: linear-gradient(0deg, rgba(240,149,1,1) 2%, rgba(240,198,1,1) 77%);
+}
+
 .border-radius-10 {
 	border-radius: 10px;
+}
+
+.border-radius-bottom-10 {
+	border-radius: 0 0 10px 10px;
 }

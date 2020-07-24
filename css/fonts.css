@@ -1,18 +1,16 @@
 /* ----------------------------------------------------------------
 	Fonts
-
-	Replace your Fonts as necessary
 -----------------------------------------------------------------*/
 
 
 body,
 small,
-.sub-menu-container .menu-item > .menu-link,
+.sub-menu-container .menu-item > .menu-link, .menu-link,
 .wp-caption,
 .fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif !important; }
+.font-body { font-family: 'Roboto', sans-serif !important; }
 
 
 h1,
@@ -22,7 +20,6 @@ h4,
 h5,
 h6,
 #logo a,
-.menu-link,
 .mega-menu-style-2 .mega-menu-title > .menu-link,
 .top-search-form input,
 .entry-link,
@@ -35,7 +32,7 @@ label,
 .widget-filter-links li a,
 .nav-tree li a,
 .wedding-head,
-.font-primary { font-family: 'Bree Serif', serif !important; }
+.font-primary { font-family: 'Roboto Slab', serif !important; }
 
 
 .entry-link span,
@@ -49,5 +46,5 @@ label,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'PT Serif', serif !important; }
+.font-secondary { font-family: 'Roboto', sans-serif !important; }
 

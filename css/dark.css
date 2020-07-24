@@ -2,7 +2,6 @@
 	Dark Scheme
 -----------------------------------------------------------------*/
 
-
 .dark,
 .dark h1,
 .dark h2,
@@ -52,8 +51,8 @@ body #side-panel.dark {
 
 .dark #top-bar,
 #top-bar.dark {
-	border-bottom-color: rgba(255,255,255,0.1);
-	background-color: #282828;
+	border-bottom-color: #172C3B;
+	background-color: #224258;
 }
 
 .dark .top-links {
@@ -98,7 +97,6 @@ body #side-panel.dark {
 .dark #header,
 #header.dark {
 	background-color: #162a38;
-	/* border-bottom-color: rgba(255,255,255,0.05); */
 }
 
 .dark #header-wrap {
@@ -179,7 +177,6 @@ body #side-panel.dark {
 	}
 
 }
-
 
 .dark #logo a {
 	color: #FFF;
