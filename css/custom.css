@@ -83,3 +83,51 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 .border-radius-bottom-10 {
 	border-radius: 0 0 10px 10px;
 }
+
+.dotted-bg::before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 40%;
+	left: 35%;
+	width: 110%;
+	height: 120%;
+	background-size: 12px 12px;
+	background-position: center;
+	transform: translate(-50%, -50%);
+	background-image: radial-gradient(#3D80E4 14%, transparent 14%);
+	-webkit-mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	mask-image: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0) 75%);
+	z-index: 0;
+}
+
+.dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
+
+
+.text-n-right {
+	position: relative;
+	padding: 0;
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	text-align: left;
+}
+
+/* Responsive Device more than 992px (.device-md >)
+-----------------------------------------------------------------*/
+@media (min-width: 992px) {
+
+	.text-n-right {
+		padding: 30px;
+		font-size: 48px;
+		line-height: 64px;
+		margin-right: -48px;
+		text-align: right;
+		z-index: 1;
+		background-color: #FFF;
+		-webkit-transform: translateX(16%);
+		transform: translateX(16%);
+	}
+
+}
+
