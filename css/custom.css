@@ -103,6 +103,15 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 
 .dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
 
+/* Border colors */
+
+.border-top-yellow {
+	border-top: 10px solid #f0c601;
+}
+
+.border-bottom-darkblue {
+	border-bottom: 10px solid #162a38;
+}
 
 .text-n-right {
 	position: relative;
@@ -112,6 +121,15 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	font-weight: 700;
 	text-align: left;
 }
+
+.badge {
+	font-size: .9rem;
+}
+
+/* Styles for event box */
+/* .event .grid-inner {
+    background-color: #044389;
+    border-bottom: 3px solid #162a38; */
 
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
@@ -130,4 +148,6 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	}
 
 }
+
+
 

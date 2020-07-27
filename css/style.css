@@ -6523,7 +6523,7 @@ body:not(.device-touch) .portfolio {
 
 .entry {
 	position: relative;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .posts-md .entry,
@@ -6656,9 +6656,9 @@ body:not(.device-touch) .portfolio {
 }
 
 .entry-meta li {
-	font-size: 90%;
+	font-size: .9rem;
 	margin: 0 15px 10px 0;
-	color: #999;
+	/* color: #999; */
 }
 
 .entry-meta ul.flex-column li {
@@ -7554,17 +7554,17 @@ td.actions {
 .event.entry::after {
 	display: none !important;
 }
-
+/* 
 .event .grid-inner {
 	background-color: #F9F9F9;
 	border-bottom: 3px solid #EEE;
-}
+} */
 
 .event .entry-image .entry-date {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(22,42,56,0.7);
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	width: 60px;
