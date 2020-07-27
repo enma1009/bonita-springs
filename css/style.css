@@ -4718,7 +4718,6 @@ body:not(.stretched) .slider-parallax .slider-inner { left: auto; }
 	-webkit-backface-visibility: hidden;
 }
 
-
 @media (max-width: 991.98px) {
 
 	#slider {
@@ -4738,11 +4737,10 @@ body:not(.stretched) .slider-parallax .slider-inner { left: auto; }
 
 }
 
-
 /* Boxed Slider
 -----------------------------------------------------------------*/
 
-.boxed-slider { padding-top: 40px; }
+/* .boxed-slider { padding-top: 40px; } */
 
 
 /* Swiper Slider
