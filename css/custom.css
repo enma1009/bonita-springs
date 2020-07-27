@@ -113,7 +113,12 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	border-bottom: 10px solid #162a38;
 }
 
+.border-bottom-neonblue {
+	border-bottom: 10px solid #00ffff;
+}
+
 .text-n-right {
+	color: #044389;
 	position: relative;
 	padding: 0;
 	font-size: 36px;
