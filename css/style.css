@@ -8288,16 +8288,16 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #53777A;
 }
 
-.button-light.button-yellow { background-color: #ECD078; }
+.button-light.button-yellow { background-color: #f0c601; }
 .button-3d.button-yellow:hover,
 .button-reveal.button-yellow:hover,
 .button-border.button-yellow:hover,
-.button-border.button-yellow.button-fill::before { background-color: #ECD078 !important; }
+.button-border.button-yellow.button-fill::before { background-color: #f0c601 !important; }
 
 .button-border.button-yellow,
 .button-border.button-yellow.button-fill.button-light:hover {
-	color: #ECD078 !important;
-	border-color: #ECD078 !important;
+	color: #f0c601 !important;
+	border-color: #f0c601 !important;
 }
 
 .button-border.button-yellow:hover,

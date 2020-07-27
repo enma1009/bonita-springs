@@ -131,6 +131,10 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	font-size: .9rem;
 }
 
+.section-features {
+    padding: 120px;
+}
+
 /* Styles for event box */
 /* .event .grid-inner {
     background-color: #044389;
