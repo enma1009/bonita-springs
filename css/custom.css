@@ -2,26 +2,10 @@
 	Custom CSS
 
 	Author: Enid Soto
-	Last updated: 07/21/2020
+	Last updated: 07/29/2020
 -----------------------------------------------------------------*/
 
-.poker-time-pill {
-	line-height: 1.8 !important;
-	border-radius: 14px;
-	padding: 4px 14px;
-	font-size: 11px;
-	display: inline-block;
-	position: relative;
-	outline: none;
-    white-space: nowrap;
-	margin: 5px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	border: 1px solid #fefefe;
-}
+/* Colors - Backgrounds and fonts */
 
 .bgrd-yellow {
 	background-color: #f0c601;
@@ -35,6 +19,8 @@
 	color: #00ffff;
 }
 
+/* Gradients */
+
 .gradient-sunrise {
 	background: rgb(218,28,92,1);
 	background: linear-gradient(0deg, rgba(223,183,1,1) 0%, rgba(218,28,92,1) 100%);
@@ -42,7 +28,7 @@
 
 .gradient-night {
 	background: rgb(22,42,56);
-	background: linear-gradient(180deg, rgba(22,42,56,1) 0%, rgba(4,67,137,1) 100%);
+	background: linear-gradient(180deg, rgba(17,33,44,1) 0%, rgba(4,67,137,1) 100%);
 }
 
 .gradient-blues {
@@ -80,12 +66,66 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	background: linear-gradient(0deg, rgba(240,149,1,1) 2%, rgba(240,198,1,1) 77%);
 }
 
+/* Radial borders */
+
 .border-radius-10 {
 	border-radius: 10px;
 }
 
 .border-radius-bottom-10 {
 	border-radius: 0 0 10px 10px;
+}
+
+/* Border colors */
+
+.border-top-yellow {
+	border-top: 10px solid #f0c601;
+}
+
+.border-bottom-darkblue {
+	border-bottom: 10px solid #162a38;
+}
+
+.border-bottom-neonblue {
+	border-bottom: 10px solid #00ffff;
+}
+
+/* Special styles */
+
+.poker-time-pill {
+	line-height: 1.8 !important;
+	border-radius: 14px;
+	padding: 4px 14px;
+	font-size: 11px;
+	display: inline-block;
+	position: relative;
+	outline: none;
+    white-space: nowrap;
+	margin: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border: 1px solid #fefefe;
+}
+
+.text-n-right {
+	color: #044389;
+	position: relative;
+	padding: 0;
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.badge {
+	font-size: .9rem;
+}
+
+.section-features {
+    padding: 120px;
 }
 
 .dotted-bg::before {
@@ -107,47 +147,9 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 
 .dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
 
-/* Border colors */
-
-.border-top-yellow {
-	border-top: 10px solid #f0c601;
-}
-
-.border-bottom-darkblue {
-	border-bottom: 10px solid #162a38;
-}
-
-.border-bottom-neonblue {
-	border-bottom: 10px solid #00ffff;
-}
-
-.text-n-right {
-	color: #044389;
-	position: relative;
-	padding: 0;
-	font-size: 36px;
-	line-height: 46px;
-	font-weight: 700;
-	text-align: left;
-}
-
-.badge {
-	font-size: .9rem;
-}
-
-.section-features {
-    padding: 120px;
-}
-
-/* Styles for event box */
-/* .event .grid-inner {
-    background-color: #044389;
-    border-bottom: 3px solid #162a38; */
-
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
-
 	.text-n-right {
 		padding: 30px;
 		font-size: 48px;
@@ -159,8 +161,22 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 		-webkit-transform: translateX(16%);
 		transform: translateX(16%);
 	}
-
 }
+
+/* Responsive Device more than 992px (.device-md >)
+-----------------------------------------------------------------*/
+/* @media (max-width: 991.98px) {
+	.threecols-slide {
+		height: 150px;
+	}
+	.slideimg {
+		object-fit: cover;
+		object-position: 33% 33%;
+		overflow:hidden;
+	}	
+} */
+
+
 
 
 
