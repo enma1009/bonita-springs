@@ -66,6 +66,10 @@ h6 > span:not(.nocolor):not(.badge),
 .dark .product-price ins,
 .dark .tab-nav-lg li.ui-tabs-active a { color: #00CCCC; }
 
+a {
+	color: #044389;
+}
+
 .color,
 .h-text-color:hover,
 a.h-text-color:hover,

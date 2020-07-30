@@ -155,6 +155,14 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	color: #044389;
 }
 
+#top-bar a {
+	color: #00CCCC;
+}
+
+.underline-link {
+	text-decoration: underline;
+}
+
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
