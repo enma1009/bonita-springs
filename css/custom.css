@@ -147,6 +147,14 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 
 .dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
 
+.phone-number {
+	color: #162a38;
+}
+
+.phone-number:hover {
+	color: #044389;
+}
+
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
