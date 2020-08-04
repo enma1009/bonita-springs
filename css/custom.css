@@ -23,6 +23,10 @@
 	color: #044389;
 }
 
+.text-darkOverColor {
+	color:#2B2B2B;
+}
+
 /* Gradients */
 
 .gradient-sunrise {
@@ -31,8 +35,10 @@
 }
 
 .gradient-night {
-	background: rgb(22,42,56);
-	background: linear-gradient(180deg, rgba(17,33,44,1) 0%, rgba(4,67,137,1) 100%);
+	/* background: rgb(22,42,56);
+	background: linear-gradient(180deg, rgba(17,33,44,1) 0%, rgba(4,67,137,1) 100%); */
+	background: rgb(19,56,103);
+	background: linear-gradient(0deg, rgba(19,56,103,1) 2%, rgba(10,20,27,1) 77%);
 }
 
 .gradient-blues {
@@ -51,8 +57,10 @@
 }
 
 .gradient-poker-red {
-	background: rgb(124,0,0);
-	background: linear-gradient(180deg, rgba(124,0,0,1) 15%, rgba(213,48,78,1) 100%);
+	/* background: rgb(124,0,0);
+	background: linear-gradient(180deg, rgba(124,0,0,1) 15%, rgba(213,48,78,1) 100%); */
+	background: rgb(113,13,10);
+	background: linear-gradient(0deg, rgba(113,13,10,1) 2%, rgba(71,3,3,1) 77%);
 }
 
 .gradient-lightsilver {
@@ -129,7 +137,7 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 }
 
 .section-features {
-    padding: 120px;
+    padding: 20px;
 }
 
 .dotted-bg::before {
@@ -193,6 +201,9 @@ footer a:hover {
 		background-color: #FFF;
 		-webkit-transform: translateX(16%);
 		transform: translateX(16%);
+	}
+	.section-features {
+		padding: 120px;
 	}
 }
 
