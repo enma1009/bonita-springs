@@ -21,14 +21,15 @@
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/colors.css" type="text/css" />
+	<link rel="stylesheet" href="css/accessibility.css" type="text/css" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
 	============================================= -->
-	<title>Contact Us | Bonita Springs Poker Room</title>
+	<title>Contact Us &#124; Bonita Springs Poker Room</title>
 
 </head>
 
@@ -47,9 +48,15 @@
 			============================================= -->
 			<div id="top-bar">
 				<div class="container">
-
-					<p class="mb-0 py-2 text-center text-md-right text-light"><strong><i class="icon-map-marker1"></i> 28010 Race Track Road - Bonita Springs, FL 34135 &nbsp;&nbsp; <i class="icon-phone-square"></i> Phone: <a href="tel:+1-239-992-2411">(239) 992-2411</a></strong></p>
-
+					<div class="row d-flex align-items-center no-gutters">
+						<div class="col-lg-4 d-flex justify-content-center justify-content-lg-start">
+							<span class="py-1 mb-0 text-center"><a class="skip-to-main" href="#page-title">Skip to main content</a> &#124; <a href="change-text-size.html" target="_blank">Change text size</a></span>
+						</div>
+						<div class="col-lg-8">
+							<p class="mb-0 py-1 text-light d-flex justify-content-center justify-content-lg-end text-center"><strong><i class="icon-map-marker1"></i> 28010 Race Track Road - Bonita Springs, FL 34135 &nbsp;&nbsp; <i class="icon-phone-square"></i> Phone: <a href="tel:+1-239-992-2411">(239) 992-2411</a></strong></p>
+						</div>
+						
+					</div>
 				</div>
 			</div>
 			<!-- #top-bar end -->
@@ -112,7 +119,7 @@
 					<!-- Form -->
 					<div class="mx-auto topmargin" style="max-width: 850px;">
 
-						<h2 class="text-center">Simply fill out the form below,<br> and we will be in touch with you soon!</h2>
+						<h2 class="text-center text-navyBlue">Simply fill out the form below,<br> and we will be in touch with you soon!</h2>
 
 						<div class="form-widget">
 
@@ -131,32 +138,27 @@
 								</div>
 
 								<div class="col-md-6 mb-4">
-									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Name" />
+									<input type="text" id="contactform-name" name="contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Name" aria-label="Your name" />
 								</div>
 								<div class="col-md-6 mb-4">
-									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" />
+									<input type="email" id="contactform-email" name="contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" aria-label="Your email address" />
 								</div>
 
 								<div class="w-100"></div>
 
 								<div class="col-md-4 mb-4">
-									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Phone" />
+									<input type="text" id="contactform-phone" name="contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Phone" aria-label="Your phone" />
 								</div>
 
 								<div class="col-md-8 mb-4">
-									<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" />
+									<input type="text" id="contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" aria-label="Message subject" />
 								</div>
 
 								<div class="w-100"></div>
 
 								<div class="col-12 mb-4">
-									<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+									<textarea class="required sm-form-control border-form-control" id="contactform-message" name="contactform-message" rows="7" cols="30" placeholder="Your Message" aria-label="Your message"></textarea>
 								</div>
-
-								<!-- <div class="col-12 form-group align-items-center">
-									<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-									<div class="g-recaptcha" data-sitekey="6LfijgUTAAAAACPt-XfRbQszAKAJY0yZDjjhMUQT"></div>
-								</div> -->
 
 								<div class="col-12 center mb-4">
 									<button class="button button-border button-circle font-weight-medium ml-0 topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
@@ -183,12 +185,12 @@
 					<div class="promo promo-light p-4 p-md-5 mb-5 mt-4">
 						<div class="row align-items-center text-center">
 							<div class="col-6">
-								<h3><span>Bonita Spring Poker Room</span></h3>
+								<h3 class="text-navyBlue">Bonita Spring Poker Room</h3>
 								<span>28010 Race Track Road <br>
 								Bonita Beach, FL 34135</span>
 							</div>
 							<div class="col-6">
-								<h3><span>Mailing Address</span></h3>
+								<h3 class="text-navyBlue">Mailing Address</h3>
 								<span>P.O. Box 2567 <br>
 								Bonita Springs, FL 34133</span>
 							</div>
@@ -230,7 +232,7 @@
 				<div class="footer-widgets-wrap">
 
 					<div class="row col-mb-50">
-						<div class="col-md-8">
+						<div class="col-lg-8">
 							<div class="widget clearfix">
 
 								<img src="images/logos/bonitaSpringslogo_light_textversion.svg" alt="Image" width="120px" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
@@ -262,9 +264,9 @@
 
 									<div class="col-12 col-lg-4 widget_links">
 										<ul>
-											<li><a href="#">Contact Us</a></li>
+											<li><a href="contact-us.html">Contact Us</a></li>
 											<li><a href="careers.html">Careers</a></li>
-											<li><a href="#">Accessibility</a></li>
+											<li><a href="accessibility.html">Accessibility</a></li>
 											<li><a href="#">Site Map</a></li>
 										</ul>
 									</div>
@@ -274,7 +276,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-lg-4">
 		
 							<div class="widget subscribe-widget clearfix">
 								<p><strong>Subscribe</strong> to our Newsletter to receive e-mail updates, news &amp; tournament information!</p>
@@ -286,7 +288,7 @@
 										</div>
 										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
 										<div class="input-group-append">
-											<button class="btn btn-success" type="submit">Subscribe</button>
+											<button class="btn lightBlueBtn" type="submit">Subscribe</button>
 										</div>
 									</div>
 								</form>
@@ -295,19 +297,19 @@
 							<div class="widget">
 								<div class="row col-mb-30">
 									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
+										<a href="#" class="social-icon si-facebook mb-0" style="margin-right: 10px;">
 											<i class="icon-facebook"></i>
 											<i class="icon-facebook"></i>
 										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+										<a href="#" class="social-footer d-block lineheight-small"><small><strong>Like us</strong><br>on Facebook</small></a>
 									</div>
 
 									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-instagram mb-0" style="margin-right: 10px;">
+										<a href="#" class="social-icon si-instagram mb-0" style="margin-right: 10px;">
 											<i class="icon-instagram"></i>
 											<i class="icon-instagram"></i>
 										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Follow us</strong><br>on Instagram</small></a>
+										<a href="#" class="social-footer d-block lineheight-small"><small><strong>Follow us</strong><br>on Instagram</small></a>
 									</div>
 								</div>
 							</div>
@@ -330,16 +332,6 @@
 							Copyright &copy; 2020 All Rights Reserved by Bonita Springs Poker Room.
 						</div>
 
-						<div class="col-12 col-lg-auto text-center text-lg-right">
-							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="#" class="social-icon inline-block si-small si-borderless mb-0 si-instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
-						</div>
 					</div>
 
 				</div>
@@ -350,7 +342,7 @@
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+	<button id="gotoTop" tabindex="0" class="icon-angle-up border-0"></button>
 
 	<!-- JavaScripts
 	============================================= -->

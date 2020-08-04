@@ -1339,13 +1339,13 @@ body #side-panel.dark {
 }
 
 .dark .sm-form-control::-moz-placeholder {
-	color: #AAA;
+	color: #A6A6A6;
 }
 .dark .sm-form-control:-ms-input-placeholder {
-	color: #AAA;
+	color: #A6A6A6;
 }
 .dark .sm-form-control::-webkit-input-placeholder {
-	color: #AAA;
+	color: #A6A6A6;
 }
 
 .dark .sm-form-control[disabled],
@@ -1474,17 +1474,17 @@ body #side-panel.dark {
 
 .dark #copyrights,
 #copyrights.dark {
-	color: rgba(255,255,255,0.4);
+	color: rgba(255,255,255,0.7);
 	background-color: rgba(0,0,0,0.2);
 }
 
 .dark .copyright-links a {
-	color: rgba(255,255,255,0.4);
+	color: rgba(255,255,255,0.7);
 	border-bottom-color: rgba(255,255,255,0.65);
 }
 
 .dark .copyright-links a:hover {
-	color: rgba(255,255,255,0.6);
+	color: rgba(255,255,255,0.9);
 	border-bottom-color: rgba(255,255,255,0.7);
 }
 
@@ -1732,7 +1732,7 @@ body #side-panel.dark {
 
 .dark .form-control:not(.not-dark),
 .dark .sm-form-control:not(.not-dark) {
-	color: #999;
+	color: #A6A6A6;
 	background-color: rgba(0,0,0,0.2);
 	border-color: rgba(255,255,255,0.15);
 }
@@ -1748,12 +1748,12 @@ body #side-panel.dark {
 	border-color: rgba(255,255,255,0.25) !important;
 }
 
-.dark .form-control:not(.not-dark)::-moz-placeholder { color: #666; }
-.dark .form-control:not(.not-dark):-ms-input-placeholder { color: #666; }
-.dark .form-control:not(.not-dark)::-webkit-input-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark)::-moz-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark):-ms-input-placeholder { color: #666; }
-.dark .sm-form-control:not(.not-dark)::-webkit-input-placeholder { color: #666; }
+.dark .form-control:not(.not-dark)::-moz-placeholder { color: #A6A6A6; }
+.dark .form-control:not(.not-dark):-ms-input-placeholder { color: #A6A6A6; }
+.dark .form-control:not(.not-dark)::-webkit-input-placeholder { color: #A6A6A6; }
+.dark .sm-form-control:not(.not-dark)::-moz-placeholder { color: #A6A6A6; }
+.dark .sm-form-control:not(.not-dark):-ms-input-placeholder { color: #A6A6A6; }
+.dark .sm-form-control:not(.not-dark)::-webkit-input-placeholder { color: #A6A6A6; }
 
 .dark .form-control:not(.not-dark)[disabled],
 .dark .form-control:not(.not-dark)[readonly],
