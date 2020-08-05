@@ -78,6 +78,11 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	background: linear-gradient(0deg, rgba(240,149,1,1) 2%, rgba(240,198,1,1) 77%);
 }
 
+.gradient-lightBlue {
+	background: rgb(222,243,247);
+	background: linear-gradient(0deg, rgba(222,243,247,1) 2%, rgba(245,255,255,1) 77%);
+}
+
 /* Radial borders */
 
 .border-radius-10 {
