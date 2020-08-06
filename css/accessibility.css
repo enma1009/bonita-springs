@@ -1,9 +1,8 @@
-:focus,
+a:focus,
 footer a:focus {
     /* Provide a fallback style for browsers
        that don't support :focus-visible */
     text-decoration: underline;
-    /* border: 2px solid orange; */
 }
   
 :focus:not(:focus-visible) {
@@ -13,13 +12,12 @@ footer a:focus {
     text-decoration: none;
 }
 
-:focus-visible,
+a:focus-visible,
 footer a:focus-visible {
 /* Draw a very noticeable focus style for
     keyboard-focus on browsers that do support
     :focus-visible */ 
     text-decoration: underline;
-    /* border: 2px solid orange; */
 }
 
 
