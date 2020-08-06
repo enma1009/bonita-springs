@@ -192,6 +192,7 @@ footer a:hover {
 
 .lineheight-small { line-height: 1.2rem !important; }
 
+.lineheight-medium { line-height: 1.8rem !important; }
 
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
