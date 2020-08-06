@@ -141,6 +141,14 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	text-align: left;
 }
 
+.page-hero-headline {
+	color: #044389;
+	font-size: 3rem;
+	line-height: 3.5rem;
+	font-weight: 700;
+	text-align: left;
+}
+
 .badge {
 	font-size: .9rem;
 }
