@@ -4,6 +4,15 @@
 	Author: Enid Soto
 	Last updated: 07/29/2020
 -----------------------------------------------------------------*/
+/* Fonts */
+
+.serif {
+	font-family: 'Red Rose', sans-serif !important;
+}
+
+.sans-serif {
+	font-family: 'Roboto', sans-serif !important;
+}
 
 /* Colors - Backgrounds and fonts */
 
@@ -208,10 +217,21 @@ footer a:hover {
 
 /* Calendar test - styles */
 
-/* #bonita-calendar table {
-	display: flex;
-    flex-wrap: wrap;
+.day-style {
+	font-weight:300;
+	font-size:2.2rem;
+	line-height: 2.5rem !important;
+	color:#162a38;
+}
+
+/* .event-info {
+	margin-bottom: 10px !important;
 } */
+
+.weekday-title {
+	color:#474747;
+	font-weight:300;
+}
 
 #bonita-calendar table, th, td {
 	table-layout: fixed;
@@ -244,6 +264,14 @@ footer a:hover {
 	padding: 5px 10px;
 	border-radius: 5px;
 }
+
+.today-style,
+.today-style h5,
+.today-style p {
+	background-color:#044389;
+	color:#CCE3FD !important;
+}
+
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
