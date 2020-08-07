@@ -206,6 +206,44 @@ footer a:hover {
 
 .lineheight-medium { line-height: 1.8rem !important; }
 
+/* Calendar test - styles */
+
+/* #bonita-calendar table {
+	display: flex;
+    flex-wrap: wrap;
+} */
+
+#bonita-calendar table, th, td {
+	table-layout: fixed;
+	width: 200px;
+}
+
+#month, #year, .weekday {
+	/* table-layout: fixed; */
+	font-family: 'Red Rose', sans-serif !important;
+	text-transform: uppercase;
+	color: #044389;
+}
+
+#bonita-calendar td {
+	/* width: auto;*/
+	height: auto; 
+	min-height: 200px;
+  	/* text-align: center; */
+  	/* line-height: 100px !important; */
+	font-size: 1.1rem;
+	/* border: 1px solid gray; */
+}
+
+#bonita-calendar table {
+	width: 100%;
+}
+
+.table-data {
+	background-color:#CCE3FD;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
