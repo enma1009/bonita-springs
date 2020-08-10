@@ -92,6 +92,11 @@ background: linear-gradient(0deg, rgba(213,214,216,1) 2%, rgba(166,168,171,1) 10
 	background: linear-gradient(0deg, rgba(222,243,247,1) 2%, rgba(245,255,255,1) 77%);
 }
 
+.gradient-darkTeal {
+	background: rgb(0,91,91);
+	background: linear-gradient(0deg, rgba(0,91,91,1) 0%, rgba(0,55,55,1) 69%);
+}
+
 /* Radial borders */
 
 .border-radius-10 {

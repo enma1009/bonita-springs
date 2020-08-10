@@ -24,15 +24,16 @@ $(document).ready(function() {
       let day = 1;
     
       for (let i=0; i<7; i++) {
-        cal.push('<div class="col-lg-1 text-center font-weight-bold weekday">' + details.weekDays[i] + '</div>');
+        cal.push('<div class="col-lg-1 d-none d-lg-block text-center font-weight-bold weekday">' + details.weekDays[i] + '</div>');
       }
       for (let i = 0; i <= 6; i++) {
         for (let j = 0; j < details.totalDays; j++) {
           if (j < start && i !== 1) {
-            cal.push('<div class="col-lg-1"><span>empty</span></div>');
-          } else {
-            cal.push('<div class="col-lg-1"><p class="day">' + day++ + `<div class="table-data">Today is day ${day-1} long text just to test</div>` +'</div>');
+            cal.push('<div class="col-lg-1 d-none d-lg-block"><span>empty</span></div>');
+          } else if (j == start && day < details.totalDays) {
+            cal.push('<div class="col-lg-1"><p class="day">' + day++ + `</p><div class="table-data">Today is day ${day-1} long text just to test</div>` +'</div>');
           }
+          console.log(j);
           // if (day > details.totalDays) {
           //   cal.push('<div class="col-lg-1"><span>&nbsp;</span></div>');
           // } else {
