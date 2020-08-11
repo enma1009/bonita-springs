@@ -1,6 +1,5 @@
 $(document).ready(function() {
     let currentDate = new Date();
-    // console.log(currentDate);
     function generateCalendar(d) {
       function monthDays(month, year) {
         let result = [];
@@ -22,23 +21,20 @@ $(document).ready(function() {
       let start = new Date(d.getFullYear(), d.getMonth()).getDay();
       let cal = [];
       let day = 1;
-      let weekday = 'day' + '1';
       for (let i=0; i<7; i++) {
-        cal.push('<div class="col-lg-1 d-none d-lg-block text-center font-weight-bold weekday">' + details.weekDays[i] + '</div>');
+        cal.push('<div class="col-lg-1 d-none d-lg-block text-center font-weight-bold weekday-heading">' + details.weekDays[i] + '</div>');
       }
       for (let j = 0; j < details.totalDays+start; j++) {
         if (j < start || day < 1) {
-          cal.push('<div class="col-lg-1 d-none d-lg-block"><span>empty</span></div>');
+          cal.push('<div class="col-lg-1 d-none d-lg-block empty-day"><span></span></div>');
         } else {
           let weekday = 'day' + day;
           cal.push('<div class="col-lg-1"><p class="day">' + day++ + '</p>' + bonitaEvents[weekday] +'</div>');
         }      
       }
-    
       $('.seven-cols').append(cal);
       $('#month').text(details.months[d.getMonth()]);
       $('#year').text(d.getFullYear());
     }
-    generateCalendar(currentDate);
-    
+    generateCalendar(currentDate);  
   });

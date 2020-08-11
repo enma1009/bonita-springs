@@ -1,5 +1,5 @@
 var bonitaEvents = {
-	day31 : '<div>TEST - THIS IS DAY 31 - Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
+	day31 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day30 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day29 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day28 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
@@ -13,7 +13,7 @@ var bonitaEvents = {
 	day20 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day19 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day18 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
-	day17 : '<div>TEST- THIS IS DAY 17 - Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
+	day17 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day16 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day15 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day14 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
@@ -29,5 +29,5 @@ var bonitaEvents = {
 	day4 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day3 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
 	day2 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>',
-	day1 : '<div>TEST - THIS IS DAY 1 - Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>'
+	day1 : '<div>Poker Early Bird until 1pm</div> <div>Poker High Hand 7pm-10pm</div>'
 }

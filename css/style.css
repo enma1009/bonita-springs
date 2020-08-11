@@ -8464,7 +8464,8 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-effect .fbox-icon i:hover,
 .fbox-effect:hover .fbox-icon i {
 	background-color: #333;
-	color: #FFF;
+	/* color: #FFF; */
+	color:#162a38; /* this changes the color of the icon on hover */
 }
 
 .fbox-effect.fbox-dark .fbox-icon i::after { box-shadow: 0 0 0 2px #1ABC9C; }
@@ -8679,11 +8680,9 @@ body:not(.device-touch) .button.button-full strong {
 
 }
 
-
 /* ----------------------------------------------------------------
 	Alerts
 -----------------------------------------------------------------*/
-
 
 .style-msg,
 .style-msg2 {
@@ -8764,11 +8763,9 @@ body:not(.device-touch) .button.button-full strong {
 	right: 10px;
 }
 
-
 /* ----------------------------------------------------------------
 	Styled Icons
 -----------------------------------------------------------------*/
-
 
 .i-rounded,
 .i-plain,
