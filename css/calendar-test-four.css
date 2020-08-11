@@ -1,6 +1,14 @@
 .col-lg-1 {
 	border: 1px solid grey;
 }
+
+.seven-cols .col-lg-1 div {
+
+	background-color:#CCE3FD;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin:10px 0;
+}
 /* 
 @media (min-width: 768px){
 	.seven-cols .col-md-1,
