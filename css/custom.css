@@ -220,6 +220,54 @@ footer a:hover {
 
 .lineheight-medium { line-height: 1.8rem !important; }
 
+.sports-promos {
+	background-color: #D6F1FF;
+}
+
+.promo-box {
+	/* border: 6px solid #00a3f5; */
+	border: 6px solid #fff;
+	color: #044389;
+	padding:20px;
+	background-color: #EBF8FF;
+}
+
+.promo-title {
+	color: #044389;	
+}
+
+.star {
+	position: absolute;
+    color: #fff;
+    background-color: #00a3f5;
+    padding: 3px 10px;
+}
+
+.promo-box .divider {
+    margin: 1rem auto;
+    color: #00a3f5;
+	width: 95%;
+}
+
+.promo-box .divider::after, .promo-box .divider::before {
+    background-color: #00a3f5;
+}
+
+.contest-name {
+	margin:0;
+	padding:0;
+	color:#044389;
+	font-size: 2rem;
+}
+
+.promo-date, .promo-time {
+	font-weight: bold;
+}
+
+.main-promo-description {
+	line-height: 1.4 !important;
+}
+
 /* Responsive Device more than 992px (.device-md >)
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
