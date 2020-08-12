@@ -1,28 +1,36 @@
 .col-lg-1 {
-	border: 1px solid #CCE3FD;
+	/* border: 1px solid #CCE3FD; */
 	padding: 5px;
-	border-radius: 5px;
+	
 }
 
 .weekday-heading {
-	font-family: 'Red Rose', sans-serif !important;
+	/* font-family: 'Red Rose', sans-serif !important; */
 	text-transform: uppercase;
-	color: #044389;
+	color: #fefefe;
 	border-color: #044389;
+	padding: 5px 10px;
+	background-color: #044389;
+	border-radius: 5px;
 }
 
 #month, #year {
-	font-family: 'Red Rose', sans-serif !important;
+	/* font-family: 'Red Rose', sans-serif !important; */
 	text-transform: uppercase;
 	color: #044389;
 }
 
-.seven-cols .col-lg-1 div {
+.inner-content {
 	/* background-color:#CCE3FD; */
-	background-color: #ecf3fa;
+	background-color: #e0ebf7;
 	padding: 5px 10px;
 	border-radius: 5px;
-	margin:10px 0;
+}
+
+.inner-content p {
+	/* margin-bottom:10px; */
+	line-height: 1.4;
+	color:#4D4D4D;
 }
 
 .day {
@@ -30,12 +38,15 @@
 	font-weight:300;
 	font-size:2rem;
 	line-height: 2.5rem !important;
-	color:#044389;
+	color:#044389 !important;
 }
 
 .empty-day {
-	background-color: #e5ebef;
-	border-color: #fff !important;
+	background-color: #eff3f7 !important;
+	/* border-color: #fff !important; */
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
 }
   
 @media (min-width: 992px) {	
