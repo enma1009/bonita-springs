@@ -28,16 +28,17 @@
 }
 
 .inner-content p {
-	/* margin-bottom:10px; */
-	line-height: 1.4;
+	margin-bottom:15px;
+	line-height: 1.4 !important;
 	color:#4D4D4D;
+	/* font-size: 1rem !important; */
 }
 
 .day {
 	margin-bottom:10px !important;
 	font-weight:300;
-	font-size:2rem;
-	line-height: 2.5rem !important;
+	font-size:2rem !important;
+	line-height: 2.5rem;
 	color:#044389 !important;
 }
 
