@@ -5226,7 +5226,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #page-title {
 	position: relative;
-	padding: 4rem 0;
+	padding: 2.5rem 0;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
 }
@@ -5287,16 +5287,6 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
 
 #page-title.page-title-dark span { color: rgba(255,255,255,0.7) !important; }
-
-#page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
-
-#page-title.page-title-dark .breadcrumb a { color: rgba(255,255,255,0.8); }
-
-#page-title.page-title-dark .breadcrumb a:hover { color: rgba(255,255,255,0.95); }
-
-#page-title.page-title-dark .breadcrumb-item + .breadcrumb-item::before {
-	color: #CCC;
-}
 
 /* Page Title - Right Aligned
 -----------------------------------------------------------------*/

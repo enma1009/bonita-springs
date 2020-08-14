@@ -10,7 +10,7 @@
 
 	<!-- Fonts
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 	<!-- Stylesheets
 	============================================= -->
@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/colors.css" type="text/css" />
 	<link rel="stylesheet" href="css/calendar.css" type="text/css" />
+	<link rel="stylesheet" href="css/calendar-test-four.css" type="text/css" />
 	<link rel="stylesheet" href="css/accessibility.css" type="text/css" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -102,10 +103,10 @@
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="dotted-bg parallax page-title-dark page-title-center" style="padding: 100px 0; background-color:rgb(4,67,137);" data-0-top="background-color:rgb(4,67,137);" data-center-bottom="background-color:rgb(17,32,43);">
+		<section id="page-title" class="dotted-bg gradient-night page-title-dark page-title-center">
 
 			<div class="container clearfix">
-				<h1>Calendar</h1>
+				<h1>Calendar</h1> <!-- THIS WAS CALENDAR-V04.HTML -->
 				<span>Upcoming Events at Bonita Springs Poker Room</span>
 			</div>
 
@@ -118,20 +119,16 @@
 				<div class="container clearfix">
 
 					<!-- Calendar -->
-					<div class="events-calendar mt-5">
-						<div class="events-calendar-header clearfix">
-							<h2 class="calendar-month-year">
-								<span id="calendar-month" class="calendar-month"></span>
-								<span id="calendar-year" class="calendar-year"></span>
-								<!-- <nav>
-									<span id="calendar-prev" class="calendar-prev"><i class="icon-chevron-left"></i></span>
-									<span id="calendar-next" class="calendar-next"><i class="icon-chevron-right"></i></span>
-									<span id="calendar-current" class="calendar-current" title="Got to current date"><i class="icon-reload"></i></span>
-								</nav> -->
-							</h2>
-						</div>
-						<div id="calendar" class="fc-calendar-container"></div>
+					
+						<h2 class="text-center topmargin">
+							<span id="month"> </span><span>&nbsp;</span>
+							<span id="year"> </span>
+						</h2>
+
+					<div class="row seven-cols">
+						<!-- calendar data goes here, coming from js/calendar?.js and events-data.js -->
 					</div>
+
 					<!-- End of Calendar -->
 
 				</div>	
@@ -301,13 +298,15 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
-	<script src="js/jquery.calendario.js"></script>
+	<!-- <script src="js/jquery.calendario.js"></script> -->
 	<script src="js/events-data.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-	<script src="js/calendar-settings.js"></script>
+	<!-- <script src="js/calendar-settings.js"></script> -->
+	<script src="js/calendar-v04.js"></script>
+	<script src="js/monthly-calendar-data.js"></script>
 
 </body>
 </html>
