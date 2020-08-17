@@ -1,5 +1,5 @@
 var bonitaEvents = {
-	day31 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
+	day31 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day30 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day29 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day28 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
@@ -11,14 +11,14 @@ var bonitaEvents = {
 	day22 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day21 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day20 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
-	day19 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
+	day19 : '<p class="invisible">No events scheculed for this day.</p>', // !important, apply this as the default when there's no data for the day
 	day18 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day17 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day16 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day15 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day14 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day13 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
-	day12 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
+	day12 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day11 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day10 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
 	day9 : '<p>Poker Early Bird until 1pm</p> <p>Poker High Hand 7pm-10pm</p>',
