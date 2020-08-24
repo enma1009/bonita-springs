@@ -22,14 +22,14 @@ $(document).ready(function() {
       let cal = [];
       let day = 1;
       for (let i=0; i<7; i++) {
-        cal.push('<div class="col-lg-1 d-none d-lg-block text-center font-weight-bold d-flex align-items-stretch"> <div class="weekday-heading">' + details.weekDays[i] + '</div></div>');
+        cal.push('<div class="col-lg-1 text-center font-weight-bold align-items-stretch d-none d-lg-block"> <div class="weekday-heading d-none d-lg-block">' + details.weekDays[i] + '</div></div>');
       }
       for (let j = 0; j < details.totalDays+start; j++) {
         if (j < start || day < 1) {
-          cal.push('<div class="col-lg-1 d-none d-lg-block d-flex align-items-stretch"><div class="empty-day"></div></div>');
+          cal.push('<div class="col-lg-1 d-none d-lg-block align-items-stretch"><div class="empty-day d-none d-lg-block"></div></div>');
         } else {
           let weekday = 'day' + day;
-          cal.push('<div class="col-lg-1 d-flex align-items-stretch"><div class="inner-content"><p class="day">' + day++ + '</p>' + bonitaEvents[weekday] +'</div></div>');
+          cal.push('<div class="col-12 col-lg-1 d-flex align-items-stretch"><div class="inner-content"><p class="day">' + day++ + '</p>' + bonitaEvents[weekday] +'</div></div>');
         }      
       }
       $('.seven-cols').append(cal);
