@@ -2605,6 +2605,10 @@ html[xmlns] .slider-wrap {
 
 @media (min-width: 992px) {
 
+	#header {
+		min-height: 162px;
+	}
+
 	#header-wrap {
 		position: fixed;
 		height: auto;
