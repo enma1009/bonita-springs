@@ -59,7 +59,7 @@ $(document).ready(function() {
           generateCalendar(currentDate);
         }
       });
-
+      
     }
     generateCalendar(currentDate);  
   });
