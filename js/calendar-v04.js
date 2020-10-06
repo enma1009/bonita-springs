@@ -35,6 +35,31 @@ $(document).ready(function() {
       $('.seven-cols').append(cal);
       $('#month').text(details.months[d.getMonth()]);
       $('#year').text(d.getFullYear());
+
+      // control arrows
+      $('#right').click(function() {
+        $('.seven-cols').html('<div></div>');
+        if (currentDate.getMonth() === 11) {
+          currentDate = new Date(currentDate.getFullYear() + 1, 0);
+          console.log('after december', currentDate);
+          generateCalendar(currentDate);
+        } else {
+          currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1);
+          console.log(currentDate);
+          generateCalendar(currentDate);
+        }
+      });
+      $('#left').click(function() {
+        $('.seven-cols').text('');
+        if (currentDate.getMonth() === 0) {
+          currentDate = new Date(currentDate.getFullYear() - 1, 11);
+          generateCalendar(currentDate);
+        } else {
+          currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() - 1);
+          generateCalendar(currentDate);
+        }
+      });
+
     }
     generateCalendar(currentDate);  
   });
